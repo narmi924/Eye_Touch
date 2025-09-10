@@ -1,0 +1,186 @@
+# Eye Touch 项目 .gitignore 文件
+
+# ===========================================
+# Python 相关
+# ===========================================
+# 字节码缓存
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C 扩展
+*.so
+
+# 分发/打包
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ===========================================
+# 虚拟环境
+# ===========================================
+# 项目虚拟环境目录
+eye_touch_env/
+venv/
+ENV/
+env/
+.venv
+
+# ===========================================
+# IDE 和编辑器
+# ===========================================
+# PyCharm / IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# ===========================================
+# 操作系统
+# ===========================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ===========================================
+# 项目输出文件
+# ===========================================
+# 测试结果和输出
+output/
+test_results*.csv
+*.log
+logs/
+
+# 摄像头捕获的图像/视频
+captures/
+*.avi
+*.mp4
+*.png
+*.jpg
+*.jpeg
+
+# 校准数据
+calibration_data/
+*.dat
+
+# ===========================================
+# 临时文件
+# ===========================================
+# 通用临时文件
+*.tmp
+*.temp
+*.bak
+*.backup
+*~
+
+# 测试和调试文件
+test_*.py
+debug_*.py
+temp_*.py
+
+# ===========================================
+# 配置文件（可选）
+# ===========================================
+# 如果包含敏感信息，取消注释下面这行
+# config.ini
+
+# 用户特定配置
+config_local.ini
+settings_local.ini
+
+# ===========================================
+# 文档生成
+# ===========================================
+docs/_build/
+
+# ===========================================
+# 依赖和包管理
+# ===========================================
+# pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Poetry
+poetry.lock
+
+# ===========================================
+# 其他
+# ===========================================
+# Jupyter Notebook 检查点
+.ipynb_checkpoints
+
+# pyenv Python 版本文件
+.python-version
+
+# 环境变量文件
+.env
+.env.local
+.env.*.local
+
+# 数据库
+*.db
+*.sqlite3
+
+# 压缩文件
+*.zip
+*.rar
+*.7z
